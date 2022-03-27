@@ -4,8 +4,8 @@ export default {
       'Estructuración de un SIG para un plan de manejo forestal y/o agroecológico',
     descripcionCurso:
       'En este componente se abordan temas como GPS, manejo de software de código abierto y alistamiento de información geográfica necesaria para el desarrollo del proyecto forestal o agroecológico.',
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_5.png'),
+    fondoBannerInterno: require('@/assets/curso/images/header/interno.png'),
   },
   menuPrincipal: {
     menu: [
@@ -51,19 +51,19 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Manejo de Software SIG de código abierto',
+        titulo: 'Manejo de <i>software</i> SIG de código abierto',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Descarga e Instalación del software QGIS 3.16',
+            titulo: 'Descarga e instalación del <i>software</i> QGIS 3.16',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Interface del Software',
+            titulo: 'Interfaz del <i>software</i>',
             hash: 't_2_2',
           },
           {
@@ -84,7 +84,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Gestión de la información Geográfica del proyecto',
+        titulo: 'Gestión de la información geográfica del proyecto',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -162,7 +162,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Gps; qué es y cómo funciona. (6 de febrero de2019). Topografia2.',
+        'GPS; qué es y cómo funciona. (6 de febrero de2019). Topografia2.',
       link: 'https://topografia2.com/como-funciona-gps/',
     },
     {
@@ -179,7 +179,7 @@ export default {
     },
     {
       referencia:
-        '●	Wikipedia contributors. (s.f). Constelación de satélites. Wikipedia, The Free Encyclopedia. Recuperado el 24 de octubre de 2021',
+        'Wikipedia contributors. (s.f). Constelación de satélites. Wikipedia, The Free Encyclopedia. Recuperado el 24 de octubre de 2021',
       link:
         'https://es.wikipedia.org/w/index.php?title=Constelaci%C3%B3n_de_sat%C3%A9lites&oldid=137981860',
     },
@@ -200,7 +200,7 @@ export default {
         'Sitio donde se almacena la característica específica de cada entidad.',
     },
     {
-      termino: 'Geopackage',
+      termino: 'GeoPackage',
       significado:
         'Es un formato de archivo universal construido sobre la base de SQLite, para compartir y transferir datos espaciales vectoriales y raster.',
     },
@@ -237,12 +237,12 @@ export default {
         'Lesson: Una vista general de la interfaz. (s/f). Qgis.org. Recuperado el 24 de octubre de 2021',
       tipo: 'Página web',
       link:
-        'https://docs.qgis.org/2.8/es/docs/training_manual/introduction/overview.html',
+        'https://docs.qgis.org/2.8/es/docs/training_manual/introduction/overview.htm',
     },
     {
       texto: 'PRIMERO PROYECTO QGIS. (20 de febrero de 2020).',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=3LBLVT4gVps',
+      link: 'https://www.youtube.com/watch?v=3LBLVT4gVps',
     },
     {
       texto: 'QGIS',
@@ -350,7 +350,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
