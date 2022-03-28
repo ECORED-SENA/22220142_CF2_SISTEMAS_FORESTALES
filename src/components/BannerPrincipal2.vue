@@ -17,10 +17,10 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.position-relative.img-p
         img(:src="globalData.imagenBannerPrincipal" style="width: 420px")
-    .imagen_flotante_1: img(src="@/assets/curso/images/header/hoja_1.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .imagen_flotante_2: img(src="@/assets/curso/images/header/hoja_2.svg" alt='' , style="width:50px; display:block; margin:0 auto;").d-none.d-lg-block
-    .imagen_flotante_3: img(src="@/assets/curso/images/header/hoja_4.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .imagen_flotante_4: img(src="@/assets/curso/images/header/hoja_3.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
+    .d-none.d-lg-block.imagen_flotante_1: img(src="@/assets/curso/images/header/hoja_1.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
+    .d-none.d-lg-block.imagen_flotante_2: img(src="@/assets/curso/images/header/hoja_2.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
+    .d-none.d-lg-block.imagen_flotante_3: img(src="@/assets/curso/images/header/hoja_4.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
+    .d-none.d-lg-block.imagen_flotante_4: img(src="@/assets/curso/images/header/hoja_3.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
     .d-none.d-xl-block.imagen_flotante_5: img(src="@/assets/curso/images/header/hands.svg" alt='' , style="width:450px; display:block; margin:0 auto;")
   //-  .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
     .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
@@ -66,6 +66,7 @@ export default {
     background-color: $color-banner-fondo
     background-size: cover
     background-position: center
+    height: 28rem
 
   &__info
     display: flex
@@ -139,7 +140,7 @@ export default {
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 90rem
-    bottom: 1%
+    bottom: 7%
     left: 25%
   &_4
     animation: float1 4s ease-in-out infinite alternate
@@ -153,14 +154,14 @@ export default {
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
     width: 220px
-    top: 3%
+    top: 15%
     left: 70%
     z-index: 99
   &_6
     filter: blur(2px)
     animation: float1 2.7s ease-in-out infinite alternate
     position: absolute
-    width: 167px
+    width: 267px
     top: 30%
     right: 3%
     z-index: 99

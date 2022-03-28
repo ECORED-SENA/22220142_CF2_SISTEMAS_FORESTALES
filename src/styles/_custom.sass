@@ -81,7 +81,7 @@
   display: flex
   height: 500px
 .aling
-  margin-left: 2rem
+  margin-left: 0.5rem
 .aling-text
   margin-left: -9rem
 .aling-1-text
@@ -173,9 +173,10 @@
   border-bottom-left-radius: 2px
   margin-right: 20px
 .tabs-b.color-acento-contenido .tabs-b__tab--active 
-  border-bottom-color: #CB001C !important
+  border-bottom-color:  #CB001C !important 
   border-bottom-style: 10px
-  top: calc(120% + 5px)
+  margin-bottom: -15px
+  top: calc(100% + 6px)
 .tabs-b__tab 
   display: flex
   flex-direction: column
@@ -207,7 +208,21 @@
   box-shadow: #FFF
   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
   cursor: pointer
-
+.tabs-b__tab--active::before 
+  width: 10px
+  height: 0
+  border-left: 10px solid transparent
+  border-right: 10px solid transparent
+  border-top: 10px solid
+  border-top-color: currentcolor
+  left: 50%
+  top: calc(150% + 2px)
+.tabs-b__tab__title 
+  text-align: center
+  font-size: 0.875em
+  line-height: -2.1em
+  margin-top: -70px
+  
 
 
 

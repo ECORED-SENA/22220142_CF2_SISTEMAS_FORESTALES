@@ -63,48 +63,50 @@
 
     p.mb-5 En el siguiente recurso, se describen los principales sistemas o constelaciones satelitales disponibles en el mundo.
 
-    TabsB.color-acento-contenido.mb-5.mx-0
-      .py-4.py-md-5(titulo="GPS" :icono="require('@/assets/curso/images/tema1/ico_1.svg')")
-        .row.fondo_2
-          .col-lg-3
-            img(src="@/assets/curso/images/tema1/ban_1.svg",alt='', style="width:1000px; display:block; margin:2rem -1rem;")
-          .col-lg-9.mt-5
-            p.aling-1-text <b>Operador:</b> comando Espacial de la Fuerza Área <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 6 planos a 20.180 km (55° MEO) <br> <b>Cobertura:</b> global <br><b>Servicios:</b><br> navegación <b>Estado:</b> <br> operacional <b>Años en servicio:</b> 1993 - 
-      .py-4.py-md-5(titulo="GLONASS" :icono="require('@/assets/curso/images/tema1/ico_2.svg')")
-        .row.fondo_3
-          .col-lg-3
-            img(src="@/assets/curso/images/tema1/ban_2.svg",alt='', style="width:170px; display:block; margin:2rem -1rem;")
-          .col-lg-9.mt-5
-            p.aling-1-text <b>Operador:</b> Agencia Espacial Federal Rusa <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 19.130 km (64° 8’ MEO) <br> <b>Cobertura:</b> Global <br> <b>Servicios:</b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 1995 -
-           
-      .py-4.py-md-5(titulo="Galilleo" :icono="require('@/assets/curso/images/tema1/ico_3.svg')")
-        .row.fondo_4
-          .col-lg-3
-            img(src="@/assets/curso/images/tema1/ban_3.svg",alt='', style="width:1000px; display:block; margin:2rem 1rem;")
-          .col-lg-9.mt-5
-            p.aling-4-text  <b>Operador:</b> Agencia de la Unión Europea para la Administración Espacial
-             <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 23.222 km (56° MEO) <br> <b>Cobertura:</b> Global <br> <b>Servicios:</b> Navegación<b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2019-
+    .row.justify-content-center.align-items-center
+      .col-lg-12
+        TabsB.color-acento-contenido.mb-5.mx-0
+          .py-4.py-md-5(titulo="GPS" :icono="require('@/assets/curso/images/tema1/ico_1.svg',)")
+            .row.fondo_2
+              .col-lg-3
+                img(src="@/assets/curso/images/tema1/ban_1.svg",alt='', style="width:1000px; display:block; margin:2rem -1rem;")
+              .col-lg-9.mt-5
+                p.aling-1-text <b>Operador:</b> comando Espacial de la Fuerza Área <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 6 planos a 20.180 km (55° MEO) <br> <b>Cobertura:</b> global <br><b>Servicios:</b><br> navegación <b>Estado:</b> <br> operacional <b>Años en servicio:</b> 1993 - 
+          .py-4.py-md-5(titulo="GLONASS" :icono="require('@/assets/curso/images/tema1/ico_2.svg')")
+            .row.fondo_3
+              .col-lg-3
+                img(src="@/assets/curso/images/tema1/ban_2.svg",alt='', style="width:170px; display:block; margin:2rem -1rem;")
+              .col-lg-9.mt-5
+                p.aling-1-text <b>Operador:</b> Agencia Espacial Federal Rusa <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 19.130 km (64° 8’ MEO) <br> <b>Cobertura:</b> Global <br> <b>Servicios:</b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 1995 -
+              
+          .py-4.py-md-5(titulo="Galilleo" :icono="require('@/assets/curso/images/tema1/ico_3.svg')")
+            .row.fondo_4
+              .col-lg-3
+                img(src="@/assets/curso/images/tema1/ban_3.svg",alt='', style="width:1000px; display:block; margin:2rem 1rem;")
+              .col-lg-9.mt-5
+                p.aling-4-text  <b>Operador:</b> Agencia de la Unión Europea para la Administración Espacial
+                <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 23.222 km (56° MEO) <br> <b>Cobertura:</b> Global <br> <b>Servicios:</b> Navegación<b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2019-
 
-      .py-4.py-md-5(titulo="BeiDou" :icono="require('@/assets/curso/images/tema1/ico_4.svg')")
-        .row.fondo_5
-          .col-lg-3
-            img(src="@/assets/curso/images/tema1/ban_4.svg",alt='', style="width:200px; display:block; margin:5rem 3rem;")
-          .col-lg-9.mt-5
-            p.aling-5-text  <b>Operador:</b> Administración Espacial Nacional China <br><b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>3 geoestacionarios a 35.786 km (GEO) / 3 en 3 planos a 35.786 km (55° GSO) / 24 en 3 planos a 21,150 km (55° MEO) <br> <b>Cobertura:</b>  Regional - Global <br> <b>Servicios:</b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2012- (Asia) / 2018- (a nivel mundial)
+          .py-4.py-md-5(titulo="BeiDou" :icono="require('@/assets/curso/images/tema1/ico_4.svg')")
+            .row.fondo_5
+              .col-lg-3
+                img(src="@/assets/curso/images/tema1/ban_4.svg",alt='', style="width:200px; display:block; margin:5rem 3rem;")
+              .col-lg-9.mt-5
+                p.aling-5-text  <b>Operador:</b> Administración Espacial Nacional China <br><b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>3 geoestacionarios a 35.786 km (GEO) / 3 en 3 planos a 35.786 km (55° GSO) / 24 en 3 planos a 21,150 km (55° MEO) <br> <b>Cobertura:</b>  Regional - Global <br> <b>Servicios:</b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2012- (Asia) / 2018- (a nivel mundial)
 
-      .py-4.py-md-5(titulo="NAVIC" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
-        .row.fondo_6
-          .col-lg-3
-            img(src="@/assets/curso/images/tema1/ban_5.svg",alt='', style="width:200px; display:block; margin:4rem 3rem;")
-          .col-lg-9.mt-5
-            p.aling-5-text  <b> Operador:</b> Agencia India de Investigación Espacial <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos): </b> <br> 3 geoestacionarios a 35.786 km (GEO) / 4 en 2 planos a 250-24.000 km (29 ° GSO) <br> <b> Cobertura: </b> Regional <br> <b> Servicios: </b> Navegación <br> <b> Estado: </b> Operacional <br> <b> Años en servicio: </b> 2018 -
-      
-      .py-4.py-md-5(titulo="QZSS" :icono="require('@/assets/curso/images/tema1/ico_6.svg')")
-        .row.fondo_7
-          .col-lg-3
-            img(src="@/assets/curso/images/tema1/ban_6.svg",alt='', style="width:200px; display:block; margin:4rem 4rem;")
-          .col-lg-9.mt-5
-            p.aling-5-text  <b> Operador:</b> JAXA (Agencia Japonesa de Exploración Aeroespacial) <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>1 geoestacionario a 35.786 km (GEO) / 3 en 3 planos a 32.600-39.000 (43 ° GSO) <br><b>Cobertura:</b> Regiona <br> <b>Servicios: </b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2018-
+          .py-4.py-md-5(titulo="NAVIC" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
+            .row.fondo_6
+              .col-lg-3
+                img(src="@/assets/curso/images/tema1/ban_5.svg",alt='', style="width:200px; display:block; margin:4rem 3rem;")
+              .col-lg-9.mt-5
+                p.aling-5-text  <b> Operador:</b> Agencia India de Investigación Espacial <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos): </b> <br> 3 geoestacionarios a 35.786 km (GEO) / 4 en 2 planos a 250-24.000 km (29 ° GSO) <br> <b> Cobertura: </b> Regional <br> <b> Servicios: </b> Navegación <br> <b> Estado: </b> Operacional <br> <b> Años en servicio: </b> 2018 -
+          
+          .py-4.py-md-5(titulo="QZSS" :icono="require('@/assets/curso/images/tema1/ico_6.svg')")
+            .row.fondo_7
+              .col-lg-3
+                img(src="@/assets/curso/images/tema1/ban_6.svg",alt='', style="width:200px; display:block; margin:4rem 4rem;")
+              .col-lg-9.mt-5
+                p.aling-5-text  <b> Operador:</b> JAXA (Agencia Japonesa de Exploración Aeroespacial) <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>1 geoestacionario a 35.786 km (GEO) / 3 en 3 planos a 32.600-39.000 (43 ° GSO) <br><b>Cobertura:</b> Regiona <br> <b>Servicios: </b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2018-
     
     
     Separador 
@@ -279,8 +281,6 @@
             h4 <i>Shapefile</i>
             p.mb-0 Es un formato propiedad de ESRI, pero es difícil encontrar un SIG que no lea este sistema de archivos. No es un único archivo, un <i>shapefile</i> se compone de varios archivos que un cliente SIG lee como uno único. El mínimo requerido es de tres: el .shp almacena las entidades geométricas, el .shx almacena el índice de las entidades geométricas y el .dbf es la base de datos, en formato dBASE.
           
-
-
 
 
   

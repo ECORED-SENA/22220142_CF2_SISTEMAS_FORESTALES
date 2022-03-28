@@ -15,7 +15,7 @@
     .row.justify-content-center.align-items-center.fondo-1.mb-5
       .col-lg-10
         figure.aling.mb-5
-          .col-lg-11.mt-5
+          .col-lg-12.mt-5
             .video
               <iframe width="560" height="315" src="https://www.youtube.com/embed/nSldfznwxMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           
