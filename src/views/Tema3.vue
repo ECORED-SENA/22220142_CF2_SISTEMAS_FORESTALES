@@ -34,11 +34,11 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_7.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-6
-              p.mb-3 Contando con el número predial o las coordenadas del predio, se puede acceder y descargar la información oficial en formato Shape File o <i>GeoPackage.</i>
+              p.mb-3 Contando con el número predial o las coordenadas del predio, se puede acceder y descargar la información oficial en formato  <i>shapefile</i> o <i>GeoPackage.</i>
 
               p.mb-0 En esta figura se muestra la interfase del Geoportal del IGAC, donde se puede obtener información del predio, bien sea a partir de las coordenadas o del número predial. 
 
-    Separador 
+    Separador r
 
     #t_3_2.titulo-segundo
       .h4 3.2 Georreferenciación y vectorización
@@ -192,7 +192,7 @@
             td.aling-8-text 0.00759349948
             td.aling-8-text  5.936565599
 
-    p.mb-3 La información atributiva se almacena en una tabla, denominada “Tabla de Atributos”, cuyas líneas o filas se llaman “registros” y las columnas que corresponden propiamente a los atributos se denominan “Campos”; estos representan las características específicas de cada entidad, por ejemplo, el nombre o la longitudz
+    p.mb-3 La información atributiva se almacena en una tabla, denominada “Tabla de atributos”, cuyas líneas o filas se llaman “registros” y las columnas que corresponden propiamente a los atributos se denominan “Campos”; estos representan las características específicas de cada entidad, por ejemplo, el nombre o la longitud
 
     .jumbotron.p-5.mb-5
       p.mb-0 Todos los campos pueden contener información numérica (áreas, longitudes, códigos, etc.) información tipo cadena o <i>string</i> (nombre) y también pueden ser fechas o corresponder a una imagen de la entidad.
@@ -213,7 +213,7 @@
 
     .row.justify-content-center.align-items-center.ma-1
       .col-4.mb-4
-        .tarjeta--sencilla.p-2
+        .tarjeta--sencilla.p-3
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -222,19 +222,19 @@
             p.aling-9-text Coordenadas Geográficas (Longitud y Latitud) y coordenadas Planas (Este y Norte)
               
       .col-4.mb-4
-        .tarjeta--sencilla-1.p-1
+        .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img.my-3(src='@/assets/curso/images/tema3/ico_2.svg', alt="", style="width:175px; display:block; margin:auto 0.5rem;")
+                img.my-3(src='@/assets/curso/images/tema3/ico_2.svg', alt="", style="width:170px; display:block; margin:auto 0.5rem;")
             h3.aling-9-text Líneas
             p.aling-9-text Longitud
       .col-4.mb-4
-        .tarjeta--sencilla.p-2
+        .tarjeta--sencilla.p-1
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img.my-5(src='@/assets/curso/images/tema3/ico_3.svg', alt="", style="width:100px; display:block; margin:auto 2rem;")
+                img.my-5(src='@/assets/curso/images/tema3/ico_3.svg', alt="", style="width:130px; display:block; margin:auto 2rem;")
             h3.aling-9-text Polígonos
             p.aling-9-text Áreas y perímetros
 

@@ -16,12 +16,8 @@
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-5.px-0.position-relative.img-p
-        img(:src="globalData.imagenBannerPrincipal" style="width: 420px")
-    .d-none.d-lg-block.imagen_flotante_1: img(src="@/assets/curso/images/header/hoja_1.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .d-none.d-lg-block.imagen_flotante_2: img(src="@/assets/curso/images/header/hoja_2.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .d-none.d-lg-block.imagen_flotante_3: img(src="@/assets/curso/images/header/hoja_4.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .d-none.d-lg-block.imagen_flotante_4: img(src="@/assets/curso/images/header/hoja_3.svg" alt='' , style="width:50px; display:block; margin:0 auto;")
-    .d-none.d-xl-block.imagen_flotante_5: img(src="@/assets/curso/images/header/hands.svg" alt='' , style="width:450px; display:block; margin:0 auto;")
+        img(:src="globalData.imagenBannerPrincipal" style="width: 520px")
+    .d-none.d-xl-block.imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.png" alt='' , style="width:500px; display:block; margin:0 auto;")
   //-  .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
     .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
     .imagen_flotante_7: img(src="@/assets/curso/float2.png")
@@ -54,10 +50,9 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  padding-left: 80px  !important
+  padding-left: 95px  !important
+  margin-top: 70px
   z-index: 3
-
-
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
@@ -153,9 +148,9 @@ export default {
   &_5
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute
-    width: 220px
-    top: 15%
-    left: 70%
+    width: 380px
+    top: 10%
+    left: 60%
     z-index: 99
   &_6
     filter: blur(2px)

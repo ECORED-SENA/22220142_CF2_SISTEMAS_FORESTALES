@@ -13,21 +13,12 @@
       .col-lg-6.mb-5.mb-lg-0
         img(src="@/assets/curso/images/tema1/img_1.jpg", alt="")
    
-    p.mb-3 Anteriormente, la información geográfica era suministrada sobre la base de levantamientos topográficos o mediante trabajos fotogramétricos a partir de la restitución de fotografías aéreas o imágenes satelitales; hoy en día, con los avances tecnológicos han surgido los sistemas de posicionamiento global denominados GPS de sus siglas en inglés <i>Global  Positioning System</i> los cuales permiten de una manera más ágil, la captura de la información espacial (puntual, lineal y poligonal) y dependiendo del dispositivo de captura dispuesto, se puede levantar información atributiva para integrar al Sistema de Información Geográfica. 
+    p.mb-3 Anteriormente, la información geográfica era suministrada sobre la base de levantamientos topográficos o mediante trabajos fotogramétricos a partir de la restitución de fotografías aéreas o imágenes satelitales; hoy en día, con los avances tecnológicos han surgido los sistemas de posicionamiento global denominados GPS de sus siglas en inglés <i> Global  Positioning System</i> los cuales permiten de una manera más ágil, la captura de la información espacial (puntual, lineal y poligonal) y dependiendo del dispositivo de captura dispuesto, se puede levantar información atributiva para integrar al Sistema de Información Geográfica. 
 
     Separador 
    
     #t_1_1.titulo-segundo
       h2 1.1  Sistemas de Posicionamiento Global GPS
-    
-    p.mb-5 Los sistemas de información geográfica SIG, en un comienzo se enfocan principalmente en el componente geográfico, es decir la ubicación espacial de la entidad territorial por medio de coordenadas en un plano bidimensional; hoy en día con el avance de la tecnología, se incorpora la información de las características o atributos de cada entidad, por ejemplo cuando se trabaja con sistemas forestales, además  de las coordenadas con las cuales se  puede ubicar un árbol dentro del espacio, los SIG permiten almacenar información como es el tipo de especie, el estado fitosanitario, y parámetros dendrométricos como alturas, diámetros, entre otros; toda esta información almacenada dentro de una base datos.
-
-    .jumbotron
-      .row.mb-5.p-3
-        .col-lg-3.mb-lg-0
-          img.my-3(src="@/assets/curso/images/tema1/img_2.svg", alt="")
-        .col-lg-9
-          p.mb-0 Anteriormente, la información geográfica era suministrada sobre la base de levantamientos topográficos o mediante trabajos fotogramétricos a partir de la restitución de fotografías aéreas o imágenes satelitales; hoy en día, con los avances tecnológicos han surgido los sistemas de posicionamiento global denominados GPS de sus siglas en inglés Global  Positioning System; los cuales permiten de una manera más ágil, la captura de la información espacial (puntual, lineal y poligonal), y dependiendo del dispositivo de captura que se disponga, se puede levantar información atributiva para integrarla al Sistema de Información Geográfica.
 
     p.mb-3 El Sistema de Posicionamiento Global (GPS), como su nombre lo indica, es un sistema que se compone por una red satélites, los cuales continuamente envían información codificada a unos receptores ubicados en la tierra, y por medio de mediciones de tiempos y distancias entre ellos, pueden identificar con precisión la ubicación en la tierra.
 
@@ -71,13 +62,13 @@
               .col-lg-3
                 img(src="@/assets/curso/images/tema1/ban_1.svg",alt='', style="width:1000px; display:block; margin:2rem -1rem;")
               .col-lg-9.mt-5
-                p.aling-1-text <b>Operador:</b> comando Espacial de la Fuerza Área <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 6 planos a 20.180 km (55° MEO) <br> <b>Cobertura:</b> global <br><b>Servicios:</b><br> navegación <b>Estado:</b> <br> operacional <b>Años en servicio:</b> 1993 - 
+                p.aling-1-text <b>Operador:</b> Comando Espacial de la Fuerza Área <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 6 planos a 20.180 km (55° MEO) <br> <b>Cobertura:</b> global <br><b>Servicios:</b><br> <b>Estado:</b> navegación  <br> <b>Años en servicio:</b> operacional  1993 - 
           .py-4.py-md-5(titulo="GLONASS" :icono="require('@/assets/curso/images/tema1/ico_2.svg')")
             .row.fondo_3
               .col-lg-3
-                img(src="@/assets/curso/images/tema1/ban_2.svg",alt='', style="width:170px; display:block; margin:2rem -1rem;")
+                img(src="@/assets/curso/images/tema1/ban_2.svg",alt='', style="width:170px; display:block; margin:2rem 1rem;")
               .col-lg-9.mt-5
-                p.aling-1-text <b>Operador:</b> Agencia Espacial Federal Rusa <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 19.130 km (64° 8’ MEO) <br> <b>Cobertura:</b> Global <br> <b>Servicios:</b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 1995 -
+                p.aling-1-text <b>Operador:</b> Agencia Espacial Federal Rusa <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 19.130 km (64° 8’ MEO) <br> <b>Cobertura:</b> global <br> <b>Servicios:</b> navegación <br> <b>Estado:</b> operacional <br> <b>Años en servicio:</b> 1995 -
               
           .py-4.py-md-5(titulo="Galilleo" :icono="require('@/assets/curso/images/tema1/ico_3.svg')")
             .row.fondo_4
@@ -90,7 +81,7 @@
           .py-4.py-md-5(titulo="BeiDou" :icono="require('@/assets/curso/images/tema1/ico_4.svg')")
             .row.fondo_5
               .col-lg-3
-                img(src="@/assets/curso/images/tema1/ban_4.svg",alt='', style="width:200px; display:block; margin:5rem 3rem;")
+                img(src="@/assets/curso/images/tema1/ban_4.svg",alt='', style="width:200px; display:block; margin:6rem 4rem;")
               .col-lg-9.mt-5
                 p.aling-5-text  <b>Operador:</b> Administración Espacial Nacional China <br><b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>3 geoestacionarios a 35.786 km (GEO) / 3 en 3 planos a 35.786 km (55° GSO) / 24 en 3 planos a 21,150 km (55° MEO) <br> <b>Cobertura:</b>  Regional - Global <br> <b>Servicios:</b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2012- (Asia) / 2018- (a nivel mundial)
 
@@ -122,12 +113,12 @@
     
     .row.align-items-center.fondo_8.mb-5
       .col-12.col-md-8.col-lg-3.col-xl-3
-        img(src="@/assets/curso/images/tema1/img_13.svg" alt="AvatarTop", style="width:370px; display:block; margin:-2rem 0;")
+        img(src="@/assets/curso/images/tema1/img_13.png" alt="AvatarTop", style="width:370px; display:block; margin:-2rem 0;")
       .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
         p.aling A partir del año 2010, con la aparición de los teléfonos inteligentes (<i>smartphones</i>), muchos aparatos traen incorporado un chip GPS, el cual permite la ubicación, navegación y captura de información en campo, proceso que se denomina georreferenciación. 
     
     .row.mb-5 
-      p En este orden de ideas, hoy en día se encuentra una gran variedad de aplicaciones para los diferentes sistemas operativos Android y IOS, estas aplicaciones permiten tomar coordenadas, hacer mediciones de geometrías (áreas, distancias) y descargar la información para procesarla en un software SIG estas son algunas de las aplicaciones disponibles. 
+      p En este orden de ideas, hoy en día se encuentra una gran variedad de aplicaciones para los diferentes sistemas operativos Android y IOS, estas aplicaciones permiten tomar coordenadas, hacer mediciones de geometrías (áreas, distancias) y descargar la información para procesarla en un <i>software</i> SIG estas son algunas de las aplicaciones disponibles. 
     
     .row.justify-content-center
       .col-lg-10
@@ -216,13 +207,13 @@
       .col-lg-5
         p.mb-5  Cada dispositivo o aplicación receptora GPS maneja su propio sistema y, por ende, su propia manera de capturar la información.
         p.mb-3 En los receptores monofrecuencia, se puede capturar información puntual, lineal y también área o superficies que se denominan polígonos. Con estos receptores es necesario la creación de un proyecto, el cual va a contener las diferentes capas que se requiere levantar. 
-        p.mb-3 Los navegadores, los receptores mono frecuencias y doble frecuencia, al igual que algunas de las aplicaciones manejan varios formatos vectoriales para la descarga de la información, los navegadores Garmin, manejan archivos vectoriales en formato GPX; los receptores monofrecuencia manejan datos en formato Shape File y los de doble frecuencia por lo general la información se descarga como texto plano en formato CSV o TXT. 
+        p.mb-3 Los navegadores, los receptores mono frecuencias y doble frecuencia, al igual que algunas de las aplicaciones manejan varios formatos vectoriales para la descarga de la información, los navegadores Garmin, manejan archivos vectoriales en formato GPX; los receptores monofrecuencia manejan datos en formato <i>shapefile</i> y los de doble frecuencia por lo general la información se descarga como texto plano en formato CSV o TXT. 
       .col-lg-7.mb-5.mb-lg-0
-        p.my-3 En lo que respecta a los navegadores GARMIN, que son los más populares en el mercado, la captura de información geográfica de entidades se realiza por medio de <i>waypoints</i>, cuando la información es de tipo puntual, por ejemplo, árboles, postes, hidrantes, etc., y por medio de <i>tracks</i> cuando se desarrollan trayectos tipo rutas, vías, y cualquier información lineal. 
+        p.my-3 En lo que respecta a los navegadores <i>Garmin</i>, que son los más populares en el mercado, la captura de información geográfica de entidades se realiza por medio de <i>waypoints</i>, cuando la información es de tipo puntual, por ejemplo, árboles, postes, hidrantes, etc., y por medio de <i>tracks</i> cuando se desarrollan trayectos tipo rutas, vías, y cualquier información lineal. 
         img(src="@/assets/curso/images/tema1/img_7.jpg", alt="")
 
 
-    p.mb-5 Algunas aplicaciones para <i>smartphones</i>, trabajan con formato KML/KMZ, lenguaje propio de Google; todos estos formatos son compatibles con cualquier software SIG así:
+    p.mb-5 Algunas aplicaciones para <i>smartphones</i>, trabajan con formato KML/KMZ, lenguaje propio de Google; todos estos formatos son compatibles con cualquier <i>software</i>SIG así:
 
     TabsA.color-acento-contenido.mb-5
     
@@ -234,7 +225,7 @@
                 img(src='@/assets/curso/images/tema1/img_8.jpg')
           .col-lg-8.mb-4
             h4 CSV
-            p.mb-0  Un CSV (<i>Comma-separated values</i>) representa datos en forma de tabla. Sirve para almacenar información alfanumérica con la posibilidad de almacenar las coordenadas y posteriormente poder crear una capa.
+            p.mb-0  Un CSV (<i>comma-separated values</i>) representa datos en forma de tabla. Sirve para almacenar información alfanumérica con la posibilidad de almacenar las coordenadas y posteriormente poder crear una capa.
              
              
       .tarjeta.back-tab.p-4(titulo="KML / KMZ")
@@ -299,19 +290,19 @@ export default {
         titulo: 'Receptores de navegación',
         texto:
           'Son los tipos de receptores más conocidos, permiten conocer las coordenadas de posición en varios formatos, ofrecen navegación asistida indicando rumbos y direcciones. <br> <br> Precisión: 3-30 metros',
-        imagen: require('@/assets/curso/images/tema1/img_4.svg'),
+        imagen: require('@/assets/curso/images/tema1/slayder_1.jpg'),
       },
       {
         titulo: 'Receptores de posicionamiento monofrecuencia (L1)',
         texto:
           'La mono frecuencia significa que el receptor recibe <br> solamente la onda portadora conocida como L1. Permiten el levantamiento de vectores (Puntos, líneas y polígonos).<br> <br> Precisión:  1-5 metros, con postproceso < 1 metros formatos, ofrecen navegación asistida indicando rumbos y direcciones. <br> <br> Precisión: 3-30 metros',
-        imagen: require('@/assets/curso/images/tema1/img_5.svg'),
+        imagen: require('@/assets/curso/images/tema1/slayder_2.jpg'),
       },
       {
         titulo: 'Receptores de posicionamiento de doble frecuencia (RTK)',
         texto:
           'Descripción: Manejan dos frecuencias conocidas como L1 y L2; permiten la disminución de errores sistemáticos, en especial los que <br> se refieren a la dispersión de la señal en la Ionosfera.<br> <br> Precisión: ± 5mm',
-        imagen: require('@/assets/curso/images/tema1/img_6.svg'),
+        imagen: require('@/assets/curso/images/tema1/slayder_3.jpg'),
         leyendaImagen: 'Leyenda de la imagen',
       },
     ],

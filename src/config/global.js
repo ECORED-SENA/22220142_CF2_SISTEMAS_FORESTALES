@@ -4,7 +4,7 @@ export default {
       'Estructuración de un SIG para un plan de manejo forestal y/o agroecológico',
     descripcionCurso:
       'En este componente se abordan temas como GPS, manejo de software de código abierto y alistamiento de información geográfica necesaria para el desarrollo del proyecto forestal o agroecológico.',
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_5.png'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_7.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.png'),
   },
   menuPrincipal: {
@@ -237,7 +237,7 @@ export default {
         'Lesson: Una vista general de la interfaz. (s/f). Qgis.org. Recuperado el 24 de octubre de 2021',
       tipo: 'Página web',
       link:
-        'https://docs.qgis.org/2.8/es/docs/training_manual/introduction/overview.htm',
+        'https://docs.qgis.org/2.8/es/docs/training_manual/introduction/overview.html',
     },
     {
       texto: 'PRIMERO PROYECTO QGIS. (20 de febrero de 2020).',
@@ -259,7 +259,7 @@ export default {
       texto:
         'El Sistema de Posicionamiento Global. (s/f). Gps.gov. Recuperado el 24 de octubre de 2021',
       tipo: 'Artículo',
-      descarga: 'https://www.gps.gov/systems/gps/spanish.php',
+      link: 'https://www.gps.gov/systems/gps/spanish.php',
     },
     {
       texto: 'GEOPORTAL. (s/f). Gov.co. Recuperado el 25 de octubre de 2021',

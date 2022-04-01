@@ -19,7 +19,7 @@
       
     #t_2_1.titulo-segundo
       .h4 2.1.	Descarga e Instalación del <i>software</i>  QGIS 3.16
-
+    p.mb-3 Para la descarga e instalación del software es necesario seguir las siguientes indicaciones:
     .row.justify-content-center.align-items-center.fondo-1.mb-5
       .col-lg-10
         figure.aling.mb-5
@@ -92,7 +92,7 @@
   
     .row.justify-content-center.align-items-center.mb-5   
       .col-12.col-lg-6.mb-5.mb-lg-0
-        img(src='@/assets/curso/images/tema2/img_4.svg' alt="")
+        img(src='@/assets/curso/images/tema2/img_4.jpg' alt="")
       .col-12.col-lg-6.mb-5.mb-lg-0
         p.mb-3 Para crear un nuevo proyecto en QGIS debemos seguir los siguientes pasos:
 
@@ -114,21 +114,21 @@
         .row.p-4
           .col-md-6
             figure
-              img.mt-5(src='@/assets/curso/images/tema2/img_5.svg', alt='Texto que describa la imagen')
+              img.mt-5(src='@/assets/curso/images/tema2/img_5.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             p.aling-6-text Cuando se trabaja  con sistemas de información geográfica SIG, la información espacial que se maneja  siempre se encuentra en formatos vectorial y ráster, dependiendo del tipo de formato,  se debe elegir la ruta por medio de la cual se carga la información al <i>software.</i>
         
         .row.p-4
           .col-md-6
             figure
-              img.mt-5(src='@/assets/curso/images/tema2/img_6.svg', alt='Texto que describa la imagen')
+              img.mt-5(src='@/assets/curso/images/tema2/img_6.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             p.aling-6-text Cuando se trabaja  con sistemas de información geográfica SIG, la información espacial que se maneja  siempre se encuentra en formatos vectorial y ráster, dependiendo del tipo de formato,  se debe elegir la ruta por medio de la cual se carga la información al <i>software.</i>
           
         .row.p-4
           .col-md-6
             figure
-              img.mt-5(src='@/assets/curso/images/tema2/img_7.svg', alt='Texto que describa la imagen')
+              img.mt-5(src='@/assets/curso/images/tema2/img_7.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             p.aling-7-text.mb-3 En los casos que no se disponga de información digital (Shapes o capas), es necesario la vectorización de la información a partir de imágenes, mapas, planos, fotografías, los cuales sirven de base para obtener información vectorial para el proyecto que se realiza. 
             p.mb-0 Antes de iniciar con el proceso de vectorización, es necesario la creación de las capas vectoriales (puntos, líneas o polígonos) dependiendo del tipo de elemento espacial que se necesite digitalizar.   
@@ -136,7 +136,7 @@
         .row.p-4
           .col-md-6
             figure
-              img.mt-5(src='@/assets/curso/images/tema2/img_8.svg', alt='Texto que describa la imagen')
+              img.mt-5(src='@/assets/curso/images/tema2/img_8.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             p.aling-7-text.mb-5 La creación de nuevas capas vectoriales se realiza de la siguiente manera:
 
