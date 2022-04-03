@@ -197,7 +197,7 @@
     .jumbotron.p-5.mb-5
       p.mb-0 Todos los campos pueden contener información numérica (áreas, longitudes, códigos, etc.) información tipo cadena o <i>string</i> (nombre) y también pueden ser fechas o corresponder a una imagen de la entidad.
     
-    p.mb-5 En síntesis, toda entidad vectorial tiene una geometría (punto, línea, polígono) y una descripción de sus características específicas (Atributo) la cual corresponde información alfanumérica que se almacena en una base de datos así:
+    p.mb-5 En síntesis, toda entidad vectorial tiene una geometría (punto, línea, polígono) y una descripción de sus características específicas (atributo) la cual corresponde información alfanumérica que se almacena en una base de datos así:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-5.mb-lg-0
@@ -211,30 +211,25 @@
 
     p.mb-5 En lenguaje SIG, el cálculo de geometrías se refiere al análisis de las dimensiones que una entidad u objeto geográfico puede tener, dependiendo del tipo de geometría, existen algunas dimensiones disponibles como se muestra a continuación. 
 
-    .row.justify-content-center.align-items-center.ma-1
-      .col-4.mb-4
+    .row.justify-content-center.mb-5
+      .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta--sencilla.p-3
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/images/tema3/ico_1.svg', alt="", style="width:135px; display:block; margin:auto 1rem;")
+            figure
+              img(src='@/assets/curso/images/tema3/ico_1.svg', alt="", style="width:135px; display:block; margin:auto 1rem;").m-auto
             h3.aling-9-text.mt-3 Puntos
             p.aling-9-text Coordenadas Geográficas (Longitud y Latitud) y coordenadas Planas (Este y Norte)
-              
-      .col-4.mb-4
-        .tarjeta--sencilla-1.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img.my-3(src='@/assets/curso/images/tema3/ico_2.svg', alt="", style="width:170px; display:block; margin:auto 0.5rem;")
+      
+      .col-md-8.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--sencilla-1.p-3
+            figure
+              img.my-3(src='@/assets/curso/images/tema3/ico_2.svg', alt="", style="width:170px; display:block; margin:auto 0.5rem;").m-auto
             h3.aling-9-text Líneas
             p.aling-9-text Longitud
-      .col-4.mb-4
-        .tarjeta--sencilla.p-1
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img.my-5(src='@/assets/curso/images/tema3/ico_3.svg', alt="", style="width:130px; display:block; margin:auto 2rem;")
+      
+      .col-md-8.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--sencilla.p-5
+            figure
+              img.my-1(src='@/assets/curso/images/tema3/ico_3.svg', alt="", style="width:130px; display:block; margin:auto 2rem;").m-auto
             h3.aling-9-text Polígonos
             p.aling-9-text Áreas y perímetros
 

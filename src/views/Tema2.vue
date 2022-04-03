@@ -26,8 +26,7 @@
           .col-lg-12.mt-5
             .video
               <iframe width="560" height="315" src="https://www.youtube.com/embed/lCjjBwcaCvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   
-    p.mb-3 Para la descarga e instalación del <i>software</i> es necesario seguir las siguientes indicaciones:
+  
     
     #t_2_2.titulo-segundo
       .h4 2.2 Interfaz del <i>software</i> 

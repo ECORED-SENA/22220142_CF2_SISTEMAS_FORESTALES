@@ -62,42 +62,42 @@
               .col-lg-3
                 img(src="@/assets/curso/images/tema1/ban_1.svg",alt='', style="width:1000px; display:block; margin:2rem -1rem;")
               .col-lg-9.mt-5
-                p.aling-1-text <b>Operador:</b> Comando Espacial de la Fuerza Área <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 6 planos a 20.180 km (55° MEO) <br> <b>Cobertura:</b> global <br><b>Servicios:</b><br> <b>Estado:</b> navegación  <br> <b>Años en servicio:</b> operacional  1993 - 
+                p.aling-1-text <b>Operador:</b> Comando Espacial de la Fuerza Área <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 6 planos a 20.180 km (55° MEO) <br> <b>Cobertura:</b> global <br><b>Servicios:</b> navegación <br> <b>Estado:</b> operacional  <br> <b>Años en servicio:</b> 1993 
           .py-4.py-md-5(titulo="GLONASS" :icono="require('@/assets/curso/images/tema1/ico_2.svg')")
             .row.fondo_3
               .col-lg-3
-                img(src="@/assets/curso/images/tema1/ban_2.svg",alt='', style="width:170px; display:block; margin:2rem 1rem;")
+                img(src="@/assets/curso/images/tema1/ban_2.svg",alt='', style="width:150px; display:block; margin:2rem 1rem;")
               .col-lg-9.mt-5
-                p.aling-1-text <b>Operador:</b> Agencia Espacial Federal Rusa <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 19.130 km (64° 8’ MEO) <br> <b>Cobertura:</b> global <br> <b>Servicios:</b> navegación <br> <b>Estado:</b> operacional <br> <b>Años en servicio:</b> 1995 -
+                p.aling-1-text <b>Operador:</b> Agencia Espacial Federal Rusa <br> <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 19.130 km (64° 8’ MEO) <br> <b>Cobertura:</b> global <br> <b>Servicios:</b> navegación <br> <b>Estado:</b> operacional <br> <b>Años en servicio:</b> 1995 
               
           .py-4.py-md-5(titulo="Galilleo" :icono="require('@/assets/curso/images/tema1/ico_3.svg')")
             .row.fondo_4
               .col-lg-3
-                img(src="@/assets/curso/images/tema1/ban_3.svg",alt='', style="width:1000px; display:block; margin:2rem 1rem;")
+                img(src="@/assets/curso/images/tema1/ban_3.svg",alt='', style="width:160px; display:block; margin:3rem 2rem;")
               .col-lg-9.mt-5
                 p.aling-4-text  <b>Operador:</b> Agencia de la Unión Europea para la Administración Espacial
-                <b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 23.222 km (56° MEO) <br> <b>Cobertura:</b> Global <br> <b>Servicios:</b> Navegación<b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2019-
+                  <br><b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> 24 en 3 planos a 23.222 km (56° MEO) <br> <b>Cobertura:</b> global <br> <b>Servicios:</b> navegación <br><b>Estado:</b> operacional <br> <b>Años en servicio:</b> 2019
 
           .py-4.py-md-5(titulo="BeiDou" :icono="require('@/assets/curso/images/tema1/ico_4.svg')")
             .row.fondo_5
               .col-lg-3
-                img(src="@/assets/curso/images/tema1/ban_4.svg",alt='', style="width:200px; display:block; margin:6rem 4rem;")
+                img(src="@/assets/curso/images/tema1/ban_4.svg",alt='', style="width:160px; display:block; margin:6rem 4rem;")
               .col-lg-9.mt-5
-                p.aling-5-text  <b>Operador:</b> Administración Espacial Nacional China <br><b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>3 geoestacionarios a 35.786 km (GEO) / 3 en 3 planos a 35.786 km (55° GSO) / 24 en 3 planos a 21,150 km (55° MEO) <br> <b>Cobertura:</b>  Regional - Global <br> <b>Servicios:</b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2012- (Asia) / 2018- (a nivel mundial)
+                p.aling-5-text  <b>Operador:</b> Administración Espacial Nacional China <br><b>Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>3 geoestacionarios a 35.786 km (GEO) / 3 en 3 planos a 35.786 km (55° GSO) / 24 en 3 planos a 21,150 km (55° MEO) <br> <b>Cobertura:</b>  regional - global <br> <b>Servicios:</b> navegación <br> <b>Estado:</b> operacional <br> <b>Años en servicio:</b> 2012- (Asia) / 2018- (a nivel mundial)
 
           .py-4.py-md-5(titulo="NAVIC" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
             .row.fondo_6
               .col-lg-3
-                img(src="@/assets/curso/images/tema1/ban_5.svg",alt='', style="width:200px; display:block; margin:4rem 3rem;")
+                img(src="@/assets/curso/images/tema1/ban_5.svg",alt='', style="width:160px; display:block; margin:5rem 4rem;")
               .col-lg-9.mt-5
-                p.aling-5-text  <b> Operador:</b> Agencia India de Investigación Espacial <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos): </b> <br> 3 geoestacionarios a 35.786 km (GEO) / 4 en 2 planos a 250-24.000 km (29 ° GSO) <br> <b> Cobertura: </b> Regional <br> <b> Servicios: </b> Navegación <br> <b> Estado: </b> Operacional <br> <b> Años en servicio: </b> 2018 -
+                p.aling-5-text  <b> Operador:</b> Agencia India de Investigación Espacial <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos): </b> <br> 3 geoestacionarios a 35.786 km (GEO) / 4 en 2 planos a 250-24.000 km (29 ° GSO) <br> <b> Cobertura: </b> regional <br> <b> Servicios: </b> navegación <br> <b> Estado: </b> operacional <br> <b> Años en servicio: </b> 2018 
           
           .py-4.py-md-5(titulo="QZSS" :icono="require('@/assets/curso/images/tema1/ico_6.svg')")
             .row.fondo_7
               .col-lg-3
-                img(src="@/assets/curso/images/tema1/ban_6.svg",alt='', style="width:200px; display:block; margin:4rem 4rem;")
+                img(src="@/assets/curso/images/tema1/ban_6.svg",alt='', style="width:160px; display:block; margin:5rem 5rem;")
               .col-lg-9.mt-5
-                p.aling-5-text  <b> Operador:</b> JAXA (Agencia Japonesa de Exploración Aeroespacial) <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>1 geoestacionario a 35.786 km (GEO) / 3 en 3 planos a 32.600-39.000 (43 ° GSO) <br><b>Cobertura:</b> Regiona <br> <b>Servicios: </b> Navegación <br> <b>Estado:</b> Operacional <br> <b>Años en servicio:</b> 2018-
+                p.aling-5-text  <b> Operador:</b> JAXA (Agencia Japonesa de Exploración Aeroespacial) <br> <b> Satélites y órbitas (último diseño, excluyendo reemplazos):</b> <br>1 geoestacionario a 35.786 km (GEO) / 3 en 3 planos a 32.600-39.000 (43 ° GSO) <br><b>Cobertura:</b> regional <br> <b>Servicios: </b> navegación <br> <b>Estado:</b> operacional <br> <b>Años en servicio:</b> 2018
     
     
     Separador 
@@ -209,7 +209,7 @@
         p.mb-3 En los receptores monofrecuencia, se puede capturar información puntual, lineal y también área o superficies que se denominan polígonos. Con estos receptores es necesario la creación de un proyecto, el cual va a contener las diferentes capas que se requiere levantar. 
         p.mb-3 Los navegadores, los receptores mono frecuencias y doble frecuencia, al igual que algunas de las aplicaciones manejan varios formatos vectoriales para la descarga de la información, los navegadores Garmin, manejan archivos vectoriales en formato GPX; los receptores monofrecuencia manejan datos en formato <i>shapefile</i> y los de doble frecuencia por lo general la información se descarga como texto plano en formato CSV o TXT. 
       .col-lg-7.mb-5.mb-lg-0
-        p.my-3 En lo que respecta a los navegadores <i>Garmin</i>, que son los más populares en el mercado, la captura de información geográfica de entidades se realiza por medio de <i>waypoints</i>, cuando la información es de tipo puntual, por ejemplo, árboles, postes, hidrantes, etc., y por medio de <i>tracks</i> cuando se desarrollan trayectos tipo rutas, vías, y cualquier información lineal. 
+        p.my-3 En lo que respecta a los navegadores Garmin, que son los más populares en el mercado, la captura de información geográfica de entidades se realiza por medio de <i>waypoints</i>, cuando la información es de tipo puntual, por ejemplo, árboles, postes, hidrantes, etc., y por medio de <i>tracks</i> cuando se desarrollan trayectos tipo rutas, vías, y cualquier información lineal. 
         img(src="@/assets/curso/images/tema1/img_7.jpg", alt="")
 
 
