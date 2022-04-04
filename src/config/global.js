@@ -45,6 +45,12 @@ export default {
             titulo: ' Equipos y aplicaciones',
             hash: 't_1_3',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Captura, Descarga y manipulación de la información',
+            hash: 't_1_4',
+          },
         ],
       },
       {

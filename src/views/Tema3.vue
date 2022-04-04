@@ -215,21 +215,21 @@
       .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta--sencilla.p-3
             figure
-              img(src='@/assets/curso/images/tema3/ico_1.svg', alt="", style="width:135px; display:block; margin:auto 1rem;").m-auto
-            h3.aling-9-text.mt-3 Puntos
-            p.aling-9-text Coordenadas Geográficas (Longitud y Latitud) y coordenadas Planas (Este y Norte)
+              img(src='@/assets/curso/images/tema3/ico_1.svg').m-auto
+            h3.aling-9-text.text.small Puntos
+            p.aling-9-text.text.small Coordenadas Geográficas (Longitud y Latitud) y coordenadas Planas (Este y Norte)
       
       .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta--sencilla-1.p-3
             figure
-              img.my-3(src='@/assets/curso/images/tema3/ico_2.svg', alt="", style="width:170px; display:block; margin:auto 0.5rem;").m-auto
+              img(src='@/assets/curso/images/tema3/ico_2.svg').m-auto
             h3.aling-9-text Líneas
             p.aling-9-text Longitud
       
       .col-md-8.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--sencilla.p-5
+        .tarjeta--sencilla.p-3
             figure
-              img.my-1(src='@/assets/curso/images/tema3/ico_3.svg', alt="", style="width:130px; display:block; margin:auto 2rem;").m-auto
+              img(src='@/assets/curso/images/tema3/ico_3.svg').m-auto
             h3.aling-9-text Polígonos
             p.aling-9-text Áreas y perímetros
 
