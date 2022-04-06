@@ -17,7 +17,7 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.position-relative.img-p
         img(:src="globalData.imagenBannerPrincipal" style="width: 520px")
-    .d-none.d-xl-block.imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.png" alt='' , style="width:500px; display:block; margin:0 auto;")
+      .d-none.d-xl-block.imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.png" alt='' , style="width:500px; display:block; margin:0 auto;")
   //-  .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
     .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
     .imagen_flotante_7: img(src="@/assets/curso/float2.png")
