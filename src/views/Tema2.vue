@@ -38,7 +38,7 @@
         .col-lg-5.mb-5.mb-lg-0
           img(src="@/assets/curso/images/tema2/img_2.svg", alt="")
         .col-lg-7
-          p.mb-3 Una vez instalado el <i>software</i> , se crea una carpeta que contiene los archivos ejecutables del <i>software</i> , en la figura se indica el archivo que se debe ejecutar para comenzar el trabajo.
+          p.mb-3 Una vez instalado el <i>software</i>, se crea una carpeta que contiene los archivos ejecutables del <i>software</i>, en la figura se indica el archivo que se debe ejecutar para comenzar el trabajo.
     
     p.mb-3 La figura describe la interfaz del <i>software</i>  QGIS donde se encuentra:
 
@@ -122,7 +122,9 @@
             figure
               img.mt-5(src='@/assets/curso/images/tema2/img_6.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            p.aling-6-text Cuando se trabaja  con sistemas de información geográfica SIG, la información espacial que se maneja  siempre se encuentra en formatos vectorial y ráster, dependiendo del tipo de formato,  se debe elegir la ruta por medio de la cual se carga la información al <i>software.</i>
+            p.aling-6-text En los casos que no se disponga de información digital (<i>Shapes</i> o capas), es necesario la vectorización de la información a partir de imágenes, mapas, planos, fotografías, los cuales sirven de base para obtener información vectorial para el proyecto que se realiza. 
+
+            p.aling-6-text  Antes de iniciar con el proceso de vectorización, es necesario la creación de las capas vectoriales (puntos, líneas o polígonos) dependiendo del tipo de elemento espacial que se necesite digitalizar.  
           
         .row.p-4
           .col-md-6

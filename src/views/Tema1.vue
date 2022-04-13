@@ -20,7 +20,7 @@
     #t_1_1.titulo-segundo
       h2 1.1  Sistemas de Posicionamiento Global GPS
 
-    p.mb-3 El Sistema de Posicionamiento Global (GPS), como su nombre lo indica, es un sistema que se compone por una red satélites, los cuales continuamente envían información codificada a unos receptores ubicados en la tierra, y por medio de mediciones de tiempos y distancias entre ellos, pueden identificar con precisión la ubicación en la tierra.
+    p.mb-3 El Sistema de Posicionamiento Global (GPS), como su nombre lo indica, es un sistema que se compone por una red de satélites, los cuales continuamente envían información codificada a unos receptores ubicados en la tierra, y por medio de mediciones de tiempos y distancias entre ellos, pueden identificar con precisión la ubicación en la tierra.
 
     p.mb-5 Todo Sistema de Posicionamiento Global, está conformado por tres segmentos o componentes así:
 
@@ -206,14 +206,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         p.mb-5  Cada dispositivo o aplicación receptora GPS maneja su propio sistema y, por ende, su propia manera de capturar la información.
-        p.mb-3 En los receptores monofrecuencia, se puede capturar información puntual, lineal y también área o superficies que se denominan polígonos. Con estos receptores es necesario la creación de un proyecto, el cual va a contener las diferentes capas que se requiere levantar. 
-        p.mb-3 Los navegadores, los receptores mono frecuencias y doble frecuencia, al igual que algunas de las aplicaciones manejan varios formatos vectoriales para la descarga de la información, los navegadores Garmin, manejan archivos vectoriales en formato GPX; los receptores monofrecuencia manejan datos en formato <i>shapefile</i> y los de doble frecuencia por lo general la información se descarga como texto plano en formato CSV o TXT. 
+        p.mb-3 En los receptores mono frecuencia, se puede capturar información puntual, lineal y también área o superficies que se denominan polígonos. Con estos receptores es necesario la creación de un proyecto, el cual va a contener las diferentes capas que se requiere levantar. 
+        p.mb-3 Los navegadores, los receptores mono frecuencias y doble frecuencia, al igual que algunas de las aplicaciones manejan varios formatos vectoriales para la descarga de la información, los navegadores Garmin, manejan archivos vectoriales en formato GPX; los receptores mono frecuencia manejan datos en formato <i>shapefile</i> y los de doble frecuencia por lo general la información se descarga como texto plano en formato CSV o TXT. 
       .col-lg-7.mb-5.mb-lg-0
         p.my-3 En lo que respecta a los navegadores Garmin, que son los más populares en el mercado, la captura de información geográfica de entidades se realiza por medio de <i>waypoints</i>, cuando la información es de tipo puntual, por ejemplo, árboles, postes, hidrantes, etc., y por medio de <i>tracks</i> cuando se desarrollan trayectos tipo rutas, vías, y cualquier información lineal. 
         img(src="@/assets/curso/images/tema1/img_7.jpg", alt="")
 
 
-    p.mb-5 Algunas aplicaciones para <i>smartphones</i>, trabajan con formato KML/KMZ, lenguaje propio de Google; todos estos formatos son compatibles con cualquier <i>software</i>SIG así:
+    p.mb-5 Algunas aplicaciones para <i>smartphones</i>, trabajan con formato KML/KMZ, lenguaje propio de Google; todos estos formatos son compatibles con cualquier <i>software</i> SIG así:
 
     TabsA.color-acento-contenido.mb-5
     
@@ -248,7 +248,7 @@
                   img(src='@/assets/curso/images/tema1/img_10.jpg')
           .col-lg-8.mb-4
             h4 GPX
-            p.mb-0 GPX o GPS <i>eXchange Format</i> (Formato de Intercambio GPS) es un esquema XML pensado para transferir datos GPS entre aplicaciones. Se puede usar para describir puntos (<i>waypoints</i>), recorridos (<i>tracks</i> ), y rutas (routes).
+            p.mb-0 GPX o GPS <i>eXchange Format</i> (Formato de Intercambio GPS) es un esquema XML pensado para transferir datos GPS entre aplicaciones. Se puede usar para describir puntos (<i>waypoints</i>), recorridos (<i>tracks</i>), y rutas (routes).
           
 
       .tarjeta.back-tab.p-4(titulo="DWG/ DXF")
@@ -262,7 +262,7 @@
             p.mb-0 El DWG es el formato de CAD (utilizado principalmente por el programa AutoCAD), para facilitar la lectura de este tipo de archivos por parte de otros programas se utilizó un archivo de intercambio: el DXF (<i>Drawing eXchange File</i>)
           
 
-      .tarjeta.back-tab.p-4(titulo="<i>shapefile</i>")
+      .tarjeta.back-tab.p-4(titulo="<i>Shapefile</i>")
         
         .row 
           .col-lg-4.mb-4
@@ -293,7 +293,7 @@ export default {
         imagen: require('@/assets/curso/images/tema1/slayder_1.jpg'),
       },
       {
-        titulo: 'Receptores de posicionamiento monofrecuencia (L1)',
+        titulo: 'Receptores de posicionamiento mono frecuencia (L1)',
         texto:
           'La mono frecuencia significa que el receptor recibe <br> solamente la onda portadora conocida como L1. Permiten el levantamiento de vectores (Puntos, líneas y polígonos).<br> <br> Precisión:  1-5 metros, con postproceso < 1 metros formatos, ofrecen navegación asistida indicando rumbos y direcciones. <br> <br> Precisión: 3-30 metros',
         imagen: require('@/assets/curso/images/tema1/slayder_2.jpg'),
@@ -303,7 +303,6 @@ export default {
         texto:
           'Descripción: Manejan dos frecuencias conocidas como L1 y L2; permiten la disminución de errores sistemáticos, en especial los que <br> se refieren a la dispersión de la señal en la Ionosfera.<br> <br> Precisión: ± 5mm',
         imagen: require('@/assets/curso/images/tema1/slayder_3.jpg'),
-        leyendaImagen: 'Leyenda de la imagen',
       },
     ],
   }),

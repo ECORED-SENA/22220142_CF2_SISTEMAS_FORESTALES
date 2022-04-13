@@ -168,7 +168,7 @@ export default {
   referencias: [
     {
       referencia:
-        'GPS; qué es y cómo funciona. (6 de febrero de2019). Topografia2.',
+        'GPS; qué es y cómo funciona. (6 de febrero de 2019). Topografia2.',
       link: 'https://topografia2.com/como-funciona-gps/',
     },
     {
@@ -179,7 +179,7 @@ export default {
     },
     {
       referencia:
-        'Morales, A. (10 de noviembre de 2013,). Los 10 formatos GIS vectoriales más populares. Mappinggis.com.',
+        'Morales, A. (10 de noviembre de 2013). Los 10 formatos GIS vectoriales más populares. Mappinggis.com.',
       link:
         'https://mappinggis.com/2013/11/los-formatos-gis-vectoriales-mas-populares/',
     },
