@@ -4,6 +4,7 @@ export default {
       'Estructuración de un SIG para un plan de manejo forestal y/o agroecológico',
     descripcionCurso:
       'En este componente se abordan temas como GPS, manejo de software de código abierto y alistamiento de información geográfica necesaria para el desarrollo del proyecto forestal o agroecológico.',
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal_7.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.png'),
   },
