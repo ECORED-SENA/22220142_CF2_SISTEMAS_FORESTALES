@@ -70,7 +70,7 @@
       div
         .row.align-items-center.justify-content-center
           .col-10
-          p.mb-0 <b>c.</b> En el menú de herramientas buscar la opción “Capa” y dentro de ella seleccionar “Crear Capa”, y seleccionar “Nueva Capa de archivo <i>shape</i>”.
+          p.mb-0 <b>b.</b> En el menú de herramientas buscar la opción “Capa” y dentro de ella seleccionar “Crear Capa”, y seleccionar “Nueva Capa de archivo <i>shape</i>”.
             
       div
         .row.align-items-center.justify-content-center
