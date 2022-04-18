@@ -130,7 +130,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -322,7 +322,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Zuleidy Ruiz',
         cargo: 'Soporte organizacional',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

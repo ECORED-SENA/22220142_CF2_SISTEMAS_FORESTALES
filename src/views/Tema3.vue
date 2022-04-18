@@ -65,15 +65,18 @@
     SlyderA.slyder-color.p-5
       .row.align-items-center.justify-content-center
         .col-10
-          p.mb-0 <b>a.</b> Se abre el cuadro de diálogo donde permite, seleccionar la ubicación donde se va a guardar, el nombre que se le dará a la capa, la geometría deseada (punto, línea o polígono) y el sistema de referencia de coordenadas, el cual es indispensable para dar una posición absoluta al elemento que se desea representar.
+          p.mb-0 <b>a.</b> Crear una carpeta de trabajo en sus equipos para la administración de cada proyecto.
+          
       div
         .row.align-items-center.justify-content-center
           .col-10
-            p.mb-0 <b>b.</b> Crear una carpeta de trabajo en sus equipos para la administración de cada proyecto.
+          p.mb-0 <b>c.</b> En el menú de herramientas buscar la opción “Capa” y dentro de ella seleccionar “Crear Capa”, y seleccionar “Nueva Capa de archivo <i>shape</i>”.
+            
       div
         .row.align-items-center.justify-content-center
           .col-10
-            p.mb-0 <b>c.</b> En el menú de herramientas buscar la opción “Capa” y dentro de ella seleccionar “Crear Capa”, y seleccionar “Nueva Capa de archivo <i>shape</i>”.
+          p.mb-0 <b>c.</b> Se abre el cuadro de diálogo donde permite, seleccionar la ubicación donde se va a guardar, el nombre que se le dará a la capa, la geometría deseada (punto, línea o polígono) y el sistema de referencia de coordenadas, el cual es indispensable para dar una posición absoluta al elemento que se desea representar.
+            
       div
         .row.align-items-center.justify-content-center
           .col-10
