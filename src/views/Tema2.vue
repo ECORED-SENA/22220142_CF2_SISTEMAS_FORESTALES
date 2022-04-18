@@ -131,8 +131,9 @@
             figure
               img.mt-5(src='@/assets/curso/images/tema2/img_7.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            p.aling-7-text.mb-3 En los casos que no se disponga de información digital (Shapes o capas), es necesario la vectorización de la información a partir de imágenes, mapas, planos, fotografías, los cuales sirven de base para obtener información vectorial para el proyecto que se realiza. 
-            p.mb-0 Antes de iniciar con el proceso de vectorización, es necesario la creación de las capas vectoriales (puntos, líneas o polígonos) dependiendo del tipo de elemento espacial que se necesite digitalizar.   
+            p.aling-7-text.mb-3 La creación de nuevas capas vectoriales se realiza de la siguiente manera:
+            p <b> a. </b> Dar un nombre a la capa y definir la ruta de guardado al igual que el sistema de referencia de coordenadas.
+            p <b> b. </b>  Definir la geometría de la capa (Punto, línea o polígono) 
           
         .row.p-4
           .col-md-6
