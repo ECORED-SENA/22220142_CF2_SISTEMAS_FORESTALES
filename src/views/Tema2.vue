@@ -135,26 +135,9 @@
             p <b> a. </b> Dar un nombre a la capa y definir la ruta de guardado al igual que el sistema de referencia de coordenadas.
             p <b> b. </b>  Definir la geometría de la capa (Punto, línea o polígono) 
           
-        .row.p-4
-          .col-md-6
-            figure
-              img.mt-5(src='@/assets/curso/images/tema2/img_8.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            p.aling-7-text.mb-5 La creación de nuevas capas vectoriales se realiza de la siguiente manera:
-
-            p <b>a.</b> Dar un nombre a la capa y definir la ruta de guardado al igual que el sistema de referencia de coordenadas.
-            p <b>b.</b> Definir la geometría de la capa (Punto, línea o polígono)
-          
-        .row.p-4
-          .col-md-6
-            figure
-              img.mt-5(src='@/assets/curso/images/tema2/img_9.svg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            p.aling-7-text.mb-5  La creación de nuevas capas vectoriales se realiza de la siguiente manera:
-
-            p.mb-3 <b>a.</b> Dar un nombre a la capa y definir la ruta de guardado al igual que el sistema de referencia de coordenadas.
-            p <b>b.</b> Definir la geometría de la capa (Punto, línea o polígono)
-        
+       
+   
+    
      
 
 
